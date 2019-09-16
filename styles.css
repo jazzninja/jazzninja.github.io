@@ -1,3 +1,26 @@
+@font-face{ 
+     font-family: 'Kernit-Outline';
+     src: url('/webfonts/Kernit-Outline.eot');
+     src: url('/webfonts/Kernit-Outline?#iefix') format('embedded-opentype'),
+          url('/webfonts/Kernit-Outline.woff') format('woff'),
+          url('/webfonts/Kernit-Outline.woff2') format('woff2')
+}
+
+@font-face{ 
+     font-family: 'Kernit-Filled';
+     src: url('/webfonts/Kernit-Filled.eot');
+     src: url('/webfonts/Kernit-Filled?#iefix') format('embedded-opentype'),
+          url('/webfonts/Kernit-Filled.woff') format('woff'),
+          url('/webfonts/Kernit-Filled.woff2') format('woff2')
+}
+
+body, html {
+
+     font-family: 'Kernit-Filled', 'Helvetica', 'Open-Sans';
+     color: #0d5e37 !important;
+
+}
+
 .under-construction {
 
      display: flex;
@@ -8,6 +31,7 @@
 }
 
 .pulse {
+
      animation-name: pulse_animation;
      animation-duration: 2000ms;
      transform-origin: 60% 60%;
