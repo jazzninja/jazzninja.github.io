@@ -1,3 +1,9 @@
+:root {
+     
+     --kermit-color: rgba(13,94,55, 1) !important;
+
+}
+
 @font-face{ 
      font-family: 'Kernit-Outline';
      src: url('/webfonts/Kernit-Outline.eot');
@@ -17,7 +23,7 @@
 body, html {
 
      font-family: 'Kernit-Filled', 'Helvetica', 'Open-Sans';
-     color: #0d5e37 !important;
+     color: var(--kermit-color);
 
 }
 
@@ -37,6 +43,8 @@ body, html {
      transform-origin: 60% 60%;
      animation-iteration-count: infinite;
      animation-timing-function: linear;
+
+     font-size: 2rem;
 }
 
 @keyframes pulse_animation {
