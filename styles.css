@@ -29,7 +29,8 @@
 
 body, html {
 
-     
+     height: 100%;
+     width: 100%;
 
 }
 
@@ -47,7 +48,7 @@ body, html {
      justify-content: center;
      -webkit-box-align: center;
      -ms-flex-align: center;
-     align-items: center;
+     align-items: center; 
 
 }
 
