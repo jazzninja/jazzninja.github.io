@@ -20,6 +20,12 @@
           url('/webfonts/Kernit-Filled.woff2') format('woff2')
 }
 
+@keyframes pulse_animation {
+     0% { transform: scale(1); }
+     50% { transform: scale(1.08); }
+     100% { transform: scale(1); }
+}
+
 body, html {
 
      font-family: 'Kernit-Filled', 'Helvetica', 'Open-Sans';
@@ -47,8 +53,9 @@ body, html {
      font-size: 2rem;
 }
 
-@keyframes pulse_animation {
-     0% { transform: scale(1); }
-     50% { transform: scale(1.08); }
-     100% { transform: scale(1); }
+.footer {
+
+     font-family: 'Helvetica', 'Open-Sans';
+     font-size: 0.75rem;
+
 }
