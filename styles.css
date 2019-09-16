@@ -1,6 +1,7 @@
 :root {
      
      --kermit-color: rgba(13,94,55, 1) !important;
+     --footer-background-color: rgba(245,240,240, 1);
 
 }
 
@@ -28,8 +29,7 @@
 
 body, html {
 
-     font-family: 'Kernit-Filled', 'Helvetica', 'Open-Sans';
-     color: var(--kermit-color);
+     
 
 }
 
@@ -51,11 +51,24 @@ body, html {
      animation-timing-function: linear;
 
      font-size: 2rem;
+
+     font-family: 'Kernit-Filled', 'Helvetica', 'Open-Sans';
+     color: var(--kermit-color);
 }
 
-.footer {
+.footer-content {
 
      font-family: 'Helvetica', 'Open-Sans';
+     color: rgba(0, 0, 0, 1);
      font-size: 0.75rem;
+     width: 100vw;
+     background-color: var(--footer-background-color);
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     position: fixed;
+     bottom: 0;
+    
 
 }
